@@ -54,7 +54,7 @@ jobs:
           ES2020 --outDir ./build
 
       - name: 🚀 Release
-        uses: cycjimmy/semantic-release-action@v3.2.0
+        uses: cycjimmy/semantic-release-action@v4.0.0
         with:
           semantic_version: 17
           branches: |
