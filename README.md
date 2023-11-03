@@ -1,3 +1,3 @@
 # table
 
-Kiba React Table.
+Kiba Table.
