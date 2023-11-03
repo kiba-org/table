@@ -11,10 +11,10 @@ import {
 import * as React from 'react'
 import { useDebounce } from './hooks/use-debounce.tsx'
 import { KabiSelect } from './components/select.tsx'
-import { Badge } from '#src/ui/badge.tsx'
-import { Button } from '#src/ui/button.tsx'
-import { Input } from '#src/ui/input.tsx'
-import { Label } from '#src/ui/label.tsx'
+import { Badge } from '../ui/badge.tsx'
+import { Button } from '../ui/button.tsx'
+import { Input } from '../ui/input.tsx'
+import { Label } from '../ui/label.tsx'
 import {
 	Table,
 	TableBody,
@@ -22,7 +22,7 @@ import {
 	TableHead,
 	TableHeader,
 	TableRow,
-} from '#src/ui/table.tsx'
+} from '../ui/table.tsx'
 import { DataTableFacetedFilter } from './components/data-table-faceted-filter.tsx'
 
 type TableProps<TData> = {

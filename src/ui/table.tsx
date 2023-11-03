@@ -1,4 +1,4 @@
-import { cn } from '#src/utils/misc.ts'
+import { cn } from '../utils/misc.ts'
 import * as React from 'react'
 
 const Table = React.forwardRef<

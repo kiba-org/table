@@ -1,21 +1,26 @@
 {
+
   "compilerOptions": {
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "isolatedModules": true,
     "esModuleInterop": true,
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
     "target": "ES2022",
     "strict": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "*": ["./*"],
+    },
     "skipLibCheck": true,
     "declaration": true,
+    "jsx": "react",
     "allowImportingTsExtensions": true,
     "allowUmdGlobalAccess": true,
-    "noEmit": true,
-    "jsx": "react",
-    "paths": {
-      "#*": ["./*"],
-    },
+    "noEmit": true
   },
   "exclude": ["node_modules"],
-  "include": ["./src/**/*.ts", "./src/**/*.tsx",]
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }

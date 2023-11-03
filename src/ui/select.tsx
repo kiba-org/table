@@ -1,7 +1,7 @@
 import * as SelectPrimitive from '@radix-ui/react-select'
 import * as React from 'react'
 
-import { cn } from '#src/utils/misc.ts'
+import { cn } from '../utils/misc.ts'
 
 const Select = SelectPrimitive.Root
 

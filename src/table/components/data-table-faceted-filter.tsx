@@ -1,6 +1,12 @@
 import * as React from 'react'
-import { Badge } from '#src/ui/badge.tsx'
-import { Button } from '#src/ui/button.tsx'
+import {
+	Badge,
+	Button,
+	Separator,
+	Popover,
+	PopoverContent,
+	PopoverTrigger,
+} from '../../ui/index.ts'
 import {
 	Command,
 	CommandEmpty,
@@ -9,10 +15,9 @@ import {
 	CommandItem,
 	CommandList,
 	CommandSeparator,
-} from '#src/ui/command.tsx'
-import { Popover, PopoverContent, PopoverTrigger } from '#src/ui/popover.tsx'
-import { Separator } from '#src/ui/separator.tsx'
-import { cn } from '#src/utils/misc.ts'
+} from '../../ui/command.tsx'
+
+import { cn } from '../../utils/misc.ts'
 
 interface DataTableFacetedFilterProps {
 	title?: string

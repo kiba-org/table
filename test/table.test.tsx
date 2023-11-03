@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 import { test, expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
-import { KabiTable } from '../src/table' // Assurez-vous d'importer correctement votre composant
+import { KabiTable } from '../src/table/index'
 import { ColumnDef } from '@tanstack/react-table'
 import * as React from 'react'
 
