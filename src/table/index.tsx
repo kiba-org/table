@@ -9,12 +9,12 @@ import {
 } from '@tanstack/react-table'
 
 import * as React from 'react'
-import { useDebounce } from './hooks/use-debounce.tsx'
-import { KabiSelect } from './components/select.tsx'
-import { Badge } from '../ui/badge.tsx'
-import { Button } from '../ui/button.tsx'
-import { Input } from '../ui/input.tsx'
-import { Label } from '../ui/label.tsx'
+import { useDebounce } from './hooks/use-debounce'
+import { KabiSelect } from './components/select'
+import { Badge } from '../ui/badge'
+import { Button } from '../ui/button'
+import { Input } from '../ui/input'
+import { Label } from '../ui/label'
 import {
 	Table,
 	TableBody,
@@ -22,8 +22,8 @@ import {
 	TableHead,
 	TableHeader,
 	TableRow,
-} from '../ui/table.tsx'
-import { DataTableFacetedFilter } from './components/data-table-faceted-filter.tsx'
+} from '../ui/table'
+import { DataTableFacetedFilter } from './components/data-table-faceted-filter'
 
 type TableProps<TData> = {
 	defaultSearchValue?: string

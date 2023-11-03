@@ -1,1 +1,1 @@
-export { KabiTable } from 'src/table/index.ts'
+export { KabiTable } from '../src/table/index'

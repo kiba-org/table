@@ -10,7 +10,7 @@ import {
 	SelectLabel,
 	SelectTrigger,
 	SelectValue,
-} from '../../ui/select.tsx'
+} from '../../ui/select'
 
 interface SelectedProps {
 	label: string

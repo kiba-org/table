@@ -1,26 +1,17 @@
 {
-
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "isolatedModules": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "esModuleInterop": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
-    "target": "ES2022",
+    "moduleResolution": "Node",
+    "target": "ES2019",
+    "module": "ES2020",
     "strict": true,
-    "noImplicitAny": true,
-    "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "*": ["./*"],
-    },
     "skipLibCheck": true,
     "declaration": true,
-    "jsx": "react",
-    "allowImportingTsExtensions": true,
-    "allowUmdGlobalAccess": true,
-    "noEmit": true
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
   "exclude": ["node_modules"],
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.ts"]
 }

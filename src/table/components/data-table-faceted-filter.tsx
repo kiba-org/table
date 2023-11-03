@@ -6,7 +6,7 @@ import {
 	Popover,
 	PopoverContent,
 	PopoverTrigger,
-} from '../../ui/index.ts'
+} from '../../ui/index'
 import {
 	Command,
 	CommandEmpty,
@@ -15,9 +15,9 @@ import {
 	CommandItem,
 	CommandList,
 	CommandSeparator,
-} from '../../ui/command.tsx'
+} from '../../ui/command'
 
-import { cn } from '../../utils/misc.ts'
+import { cn } from '../../utils/misc'
 
 interface DataTableFacetedFilterProps {
 	title?: string
