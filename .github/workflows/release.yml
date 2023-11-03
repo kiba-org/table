@@ -50,8 +50,8 @@ jobs:
       - name: 💪 Generate Types
         run:
           npx -p typescript tsc --declaration --emitDeclarationOnly --allowJs
-          --checkJs --downlevelIteration --module nodenext --moduleResolution
-          nodenext --target es2022 --outDir . index.js
+          --checkJs --downlevelIteration --module ES2020 --moduleResolution Node
+          --target ES2020 --outDir ./build
 
       - name: 🚀 Release
         uses: cycjimmy/semantic-release-action@v3.2.0
