@@ -1,0 +1,59 @@
+{
+  "name": "@kiba-org/table",
+  "version": "1.0.0",
+  "description": "Kiba-org  table",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter spec --experimental-test-coverage *.test.js",
+    "test:watch": "node --test --test-reporter spec --watch *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiba-org/table.git"
+  },
+  "keywords": [
+    "kiba",
+    "table",
+    "react",
+    "table"
+  ],
+  "author": "Hakim Gueye <beatsjordy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiba-org/table/issues"
+  },
+  "homepage": "https://github.com/kiba-org/table#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "prettier": {
+    "semi": false,
+    "useTabs": true,
+    "singleQuote": true,
+    "proseWrap": "always",
+    "overrides": [
+      {
+        "files": [
+          "**/*.json"
+        ],
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}
