@@ -12,8 +12,7 @@
     "./README.md"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "sideEffects": false,
   "scripts": {
