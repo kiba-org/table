@@ -1,28 +1,24 @@
 {
   "name": "@kiba-org/table",
-  "version": "1.0.0",
-  "description": "Kiba-org  table",
-  "main": "./build/index.js",
-  "source": "./src/index.ts",
-  "sideEffects": false,
+  "version": "1.1.19",
+  "description": "Kiba-org table",
   "exports": {
     "./package.json": "./package.json",
-    ".": "./build/index.js",
-    "./table": "./build/table"
+    "./index.js": "./build/react/kiba-table.js"
   },
   "files": [
-    "build/**/*.js",
-    "build/**/*.d.ts",
-    "README.md",
-    "CHANGELOG.md"
+    "./build/**/*.js",
+    "./build/**/*.d.ts",
+    "./README.md"
   ],
   "publishConfig": {
     "access": "public"
   },
+  "sideEffects": false,
   "scripts": {
     "clean": "rimraf build",
     "prebuild": "npm run clean",
-    "build": "npm run clean && tsc --project tsconfig.build.json  --outDir ./build",
+    "build": "npm run clean && tsc --project tsconfig.json  --outDir ./build",
     "postbuild": "prettier --write \"build/**/*.js\" \"build/**/*.d.ts\"",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"test/**/*.ts\" \"test/**/*.tsx\" \"*.md\" \"package.json\"",
     "prepublish": "npm run build",
@@ -37,7 +33,6 @@
   },
   "keywords": [
     "kiba",
-    "table",
     "react",
     "table"
   ],

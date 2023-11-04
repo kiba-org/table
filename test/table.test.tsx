@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 import { test, expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
-import { KabiTable } from '../src/table/index'
+import { KibaTable } from '../src/react/kiba-table'
 import { ColumnDef } from '@tanstack/react-table'
 import * as React from 'react'
 
@@ -28,7 +28,7 @@ test('renders table correctly with provided data', () => {
 		{ id: '2', name: 'Sophie' },
 	]
 
-	render(<KabiTable columns={columns} data={data} total={data.length} />)
+	render(<KibaTable columns={columns} data={data} total={data.length} />)
 
 	// Assert that specific content is present in the rendered component
 	expect(screen.getByText('Hakim')).toBeInTheDocument()

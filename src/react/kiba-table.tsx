@@ -9,8 +9,8 @@ import {
 } from '@tanstack/react-table'
 
 import * as React from 'react'
-import { useDebounce } from './hooks/use-debounce'
-import { KabiSelect } from './components/select'
+import { useDebounce } from './use-debounce'
+import { KabiSelect } from './select'
 import { Badge } from '../ui/badge'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
@@ -23,7 +23,7 @@ import {
 	TableHeader,
 	TableRow,
 } from '../ui/table'
-import { DataTableFacetedFilter } from './components/data-table-faceted-filter'
+import { DataTableFacetedFilter } from './data-table-faceted-filter'
 
 type TableProps<TData> = {
 	defaultSearchValue?: string
@@ -67,7 +67,7 @@ type TableProps<TData> = {
 	}
 }
 
-function KabiTable<TData>({
+export function KibaTable<TData>({
 	columns,
 	data,
 	onChangeRowSelection,
@@ -319,5 +319,3 @@ function KabiTable<TData>({
 		</div>
 	)
 }
-
-export { KabiTable }

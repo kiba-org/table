@@ -10,7 +10,7 @@ import {
 	SelectLabel,
 	SelectTrigger,
 	SelectValue,
-} from '../../ui/select'
+} from '../ui/select'
 
 interface SelectedProps {
 	label: string
