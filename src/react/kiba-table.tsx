@@ -10,7 +10,7 @@ import {
 
 import * as React from 'react'
 import { useDebounce } from './use-debounce'
-import { KabiSelect } from './select'
+import { KibaSelect } from './select'
 import { Badge } from '../ui/badge'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
@@ -270,7 +270,7 @@ export function KibaTable<TData>({
 			<div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
 				{onPageSize ? (
 					<div className="my-2 self-end">
-						<KabiSelect
+						<KibaSelect
 							label="Taille"
 							placeholder="sélectionner la taille"
 							data={[

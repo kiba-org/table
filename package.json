@@ -1,6 +1,6 @@
 {
   "name": "@kiba-org/table",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Kiba-org table",
   "exports": {
     "./package.json": "./package.json",
@@ -12,7 +12,8 @@
     "./README.md"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "sideEffects": false,
   "scripts": {

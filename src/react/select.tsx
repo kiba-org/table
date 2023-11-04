@@ -22,7 +22,7 @@ interface SelectedProps {
 	defaultValue?: string
 }
 
-function KabiSelect({
+function KibaSelect({
 	data,
 	label,
 	placeholder,
@@ -53,4 +53,4 @@ function KabiSelect({
 	)
 }
 
-export { KabiSelect }
+export { KibaSelect }
