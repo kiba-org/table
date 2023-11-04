@@ -1,3 +1,4 @@
+import * as React from 'react'
 export type Selectprops = {
 	value: string
 	label: string
