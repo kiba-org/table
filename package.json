@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "rimraf build",
     "prebuild": "npm run clean",
-    "build": "npm run clean && tsc --project tsconfig.json  --outDir ./build",
+    "build": "npm run clean && tsc --project tsconfig.build.json  --outDir ./build",
     "postbuild": "prettier --write \"build/**/*.js\" \"build/**/*.d.ts\"",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"test/**/*.ts\" \"test/**/*.tsx\" \"*.md\" \"package.json\"",
     "prepublish": "npm run build",

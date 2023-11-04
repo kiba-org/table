@@ -2,8 +2,8 @@
   "compilerOptions": {
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "esModuleInterop": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
     "target": "ES2022",
     "strict": true,
     "skipLibCheck": true,
