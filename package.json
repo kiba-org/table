@@ -1,6 +1,6 @@
 {
   "name": "@kiba-org/table",
-  "version": "1.1.19",
+  "version": "1.2.0",
   "description": "Kiba-org table",
   "exports": {
     "./package.json": "./package.json",
